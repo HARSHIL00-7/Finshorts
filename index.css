@@ -1,0 +1,224 @@
+header {
+    padding: 9px;
+    background-color: #4FFFB0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+header h2 #h2 {
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
+p {
+    margin: 0em 10em 0em 0em;
+}
+
+nav {
+    font-size: 0.8em;
+    padding: 0em;
+    margin: 0em 0em 0em 0em;
+    background-color: #1bce7d;
+}
+
+.topnav-right {
+    float: right;
+}
+
+.topnav-right a {
+    color: blue
+}
+
+.topnav-right a:hover {
+    color: black
+}
+
+ul {
+    list-style-type: none;
+    margin: 0em;
+    padding: 0.5em;
+    overflow: hidden;
+    background-color: rgba(70, 204, 164, 0.418);
+}
+
+li a {
+    display: inline;
+    padding: 0.2em;
+    float: left;
+    color: #d63031;
+}
+
+li a:hover {
+    color: blue;
+}
+
+.marq {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(73, 228, 11);
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    background-color: wheat;
+    display: block;
+    margin-top: 1px;
+    height: auto;
+    text-align: left;
+}
+
+.website-body {
+    padding: 10px;
+    border: 1px solid red;
+    height: fit-content;
+    width: 22.5%;
+    margin-top: 0em;
+    margin-right: 1em;
+    justify-content: left;
+    float: left;
+    overflow: hidden;
+}
+
+.website-body p {
+    display: contents;
+}
+
+.website-body h1 {
+    display: block;
+    padding: 2px;
+    width: fit-content;
+    background-color: white;
+    color: rgba(103, 226, 45, 0.822);
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.website-body img {
+    float: left;
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+
+.website-body2 {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid red;
+    height: 54.9%;
+    margin-left: 0em;
+    margin-top: 0em;
+    margin-right: 1em;
+    justify-content: left;
+    overflow: hidden;
+}
+
+.website-body2 h1 {
+    display: block;
+    padding: 2px;
+    background-color: white;
+    color: rgba(103, 226, 45, 0.822);
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.website-body2 img {
+    float: left;
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+
+.website-body3 {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid red;
+    height: 54.9%;
+    margin-left: 0em;
+    margin-top: 0em;
+    margin-right: 0em;
+    justify-content: left;
+    overflow: hidden;
+}
+
+.website-body3 h1 {
+    display: block;
+    padding: 2px;
+    background-color: white;
+    color: rgba(103, 226, 45, 0.822);
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.website-body3 img {
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+
+.vmenu {
+    float: right;
+    width: 320px;
+}
+
+.vmenu a {
+    background-color: rgba(42, 202, 128, 0.658);
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    height: 7.7%;
+}
+
+.vmenu a:hover {
+    background-color: rgb(89, 160, 116);
+}
+
+.vmenu a.active {
+    background-color: #13fc74e3;
+    color: white;
+}
+
+table,
+th,
+td {
+    font-family: "Times New Roman", Times, serif;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+table {
+    margin: 0em 10em 0em 30em;
+}
+
+tr {
+    background-color: #9dbefa;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+tr th#head1 {
+    border: 2px solid grey;
+    text-align: center;
+    background-color: rgb(0, 175, 175);
+}
+
+th {
+    background-color: #DEE9f6;
+}
+
+footer {
+    color: white;
+    background-color: #1bce7d;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0em;
+}
+
+footer a {
+    color: black;
+}
